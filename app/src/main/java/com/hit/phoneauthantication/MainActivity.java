@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(binding.getRoot());
 
         binding.phoneLl.setVisibility(View.VISIBLE); //Show phone layout
-        binding.phoneLl.setVisibility(View.GONE);//hind code layout
+        binding.codeLl.setVisibility(View.GONE);//hind code layout
 
         firebaseAuth = FirebaseAuth.getInstance();
 

@@ -52,7 +52,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:background="@color/white"
-            android:hint="+94 xx xxx xx xx"
+            android:hint="+94 xxxxxxxxx"
             android:inputType="phone"
             android:padding="10dp"
             android:textAlignment="center"
