@@ -17,6 +17,10 @@
         android:layout_marginTop="20dp"
         android:src="@drawable/ic_baseline_phone_android_24"/>
 
+
+<!--    For Phone Number-->
+
+
     <LinearLayout
         android:id="@+id/phoneLl"
         android:layout_width="match_parent"
@@ -42,9 +46,86 @@
             android:textAlignment="center"
             android:textColor="#777777"/>
 
-        
+        <EditText
+            android:id="@+id/phoneEt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@color/white"
+            android:hint="+94 xx xxx xx xx"
+            android:inputType="phone"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textColorHint="#c5c5c5"/>
 
+        <Button
+            android:id="@+id/phoneContinueBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:text="Continue"/>
 
+    </LinearLayout>
+
+<!--    For OTP/Verification-->
+
+    <LinearLayout
+        android:id="@+id/codeLl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            style="@style/TextAppearance.MaterialComponents.Subtitle1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Verification Code"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/codeSentDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Please Enter the Verification code we sent \n to +94 xx xxx xx xx"
+            android:textAlignment="center"
+            android:textColor="#777777"/>
+
+        <EditText
+            android:id="@+id/codeEt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@color/white"
+            android:hint="xxxxxx"
+            android:inputType="phone"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textColorHint="#c5c5c5"/>
+
+        <TextView
+            android:id="@+id/resendCodeTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/TextAppearance.MaterialComponents.Caption"
+            android:padding="5dp"
+            android:textAlignment="center"
+            android:textColor="#777777"
+            android:text="@string/didn_t_get_otp_resend"/>
+
+        <Button
+            android:id="@+id/CodeSubmitBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:text="Submit"/>
 
     </LinearLayout>
 

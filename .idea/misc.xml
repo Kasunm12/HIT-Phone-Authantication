@@ -3,7 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/software project/PhoneAuthantication/app/src/main/res/layout/activity_main.xml" value="0.22447916666666667" />
+        <entry key="..\:/software project/PhoneAuthantication/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/software project/PhoneAuthantication/app/src/main/res/layout/activity_profile.xml" value="0.22447916666666667" />
         <entry key="..\:/software project/PhoneAuthantication/app/src/main/res/layout/verify_phone_no.xml" value="0.22447916666666667" />
       </map>
     </option>
