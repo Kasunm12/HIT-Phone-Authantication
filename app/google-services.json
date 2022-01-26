@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "820788651507",
+    "project_id": "fir-phoneauth-1be14",
+    "storage_bucket": "fir-phoneauth-1be14.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:820788651507:android:4268ec93bf6dcffc811e86",
+        "android_client_info": {
+          "package_name": "com.hit.phoneauthantication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "820788651507-njss751s8rjgfo8rc6vqicfqugvpdgrc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_QIjmMY6qLLGQN4mbMzq-YvDMzhOI0fY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "820788651507-njss751s8rjgfo8rc6vqicfqugvpdgrc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
