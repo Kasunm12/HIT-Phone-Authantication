@@ -40,7 +40,7 @@ public class ProfileActivity extends AppCompatActivity {
 
         //get current user
        FirebaseUser firebaseUser = firebaseAuth.getCurrentUser();
-        if(firebaseAuth != null){
+        if(firebaseUser != null){
 
             //user is logged in
             String phone = firebaseUser.getPhoneNumber();
